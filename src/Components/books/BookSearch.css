@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+#main-wrap{
+font-family: 'Roboto', sans-serif;
+}
+
+#header-wrap{
+    background-color: maroon;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+}
+h1{
+    margin: 0;
+    padding-top: 8px;
+    text-align: center;
+    color: white;
+}
+#searchbar-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#searchbooks{
+    width: 500px;
+    height: 30px;
+}
+#search-btn{
+    cursor: pointer;
+}
+#bookresults-wrap{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    width: 65%;
+    margin-left: 20%;
+}
+#bookresults-wrap>a>div>img{
+    height: 250px;
+    width: 180px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+#bookresults-wrap>a>div{
+    transition: 112ms;
+    position: relative;
+    cursor: pointer;
+}
+#bookresults-wrap>a>div:hover{
+    transform: scale(1.1);
+}
+
+
+#bookresults-wrap>a>div>div{
+    position: absolute;
+    top: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(255, 255, 255, 0);
+    text-align: center;
+    width: 180px;
+    text-transform: uppercase;
+   
+   
+}
+#bookresults-wrap>a>div>div:hover{
+    color: white;
+     background-color: rgba(0, 0, 0, 0.444);
+     
+}
+#hover-title{
+    text-align: center;
+    margin: 0
+}
+
+#author{
+    font-size: large;
+    margin: 0;
+}
+#pagecount{
+    margin: 0;
+}
+#rating{
+    margin: 0;
+}
